@@ -81,7 +81,7 @@ const About = ({ isDarkMode }:ThemeProps) => {
                                 <Image src={tool} alt="Tool" className="w-5 sm:w-7" />
                             </motion.li>
                         ))}
-                    </motion.ul>
+                     </motion.ul>
                 </motion.div>
             </motion.div>
         </motion.div>
