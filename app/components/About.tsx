@@ -2,7 +2,10 @@ import { assets, infoList, toolsData } from "@/assets/assets"
 import Image from "next/image"
 import { motion } from 'motion/react'
 
-const About = ({ isDarkMode }) => {
+type ThemeProps = {
+    isDarkMode:boolean
+}
+const About = ({ isDarkMode }:ThemeProps) => {
     return (
         <motion.div
             initial={{ opacity: 0 }}

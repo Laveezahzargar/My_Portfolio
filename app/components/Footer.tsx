@@ -2,7 +2,7 @@ import { assets } from "@/assets/assets"
 import Image from "next/image"
 
 
-const Footer = ({isDarkMode}) => {
+const Footer = ({isDarkMode}:{isDarkMode: boolean}) => {
   return (
     <div className="mt-20">
         <div className="text-center">

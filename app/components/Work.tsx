@@ -3,7 +3,7 @@ import Image from "next/image"
 import { motion } from 'motion/react'
 
 
-const Work = ({ isDarkMode }) => {
+const Work = ({ isDarkMode }:{isDarkMode:boolean}) => {
     return (
         <motion.div
             initial={{ opacity: 0 }}
